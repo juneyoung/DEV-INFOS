@@ -20,5 +20,16 @@ $> systemctl mysqld restart
 $> systemctl mysqld enable
 ```
 
+#### 데이터 백업과 복구
+```
+# 루틴을 포함하지 않고 백업 덤프 
+$> mysqldump -u[사용자명] -p[비밀번호] [스키마명] > [덤프파일명]
+# 루틴을 포함하여 백업 덤프
+$> mysqldump -u[사용자명] -p[비밀번호] --routines [스키마명] > [덤프파일명]
+
+# 복원
+$> mysql -u[사용자명] -p[비밀번호] [스키마명] < [덤프파일명]
+```
+
 #### History
 - 2014.04.29 : 초안작성
