@@ -104,7 +104,7 @@ interactive-timeout
 open-files-limit = 8192
 ```
 ##### 항목별
-- [문자열](/sublink/chartset.md)
+- [문자열](https://github.com/juneyoung/DEV-INFOS/blob/master/MYSQL/sublink/chartset.md)
 - [패킷](https://github.com/juneyoung/DEV-INFOS/blob/master/MYSQL/sublink/packet.md)
 - [이노디비](https://github.com/juneyoung/DEV-INFOS/blob/master/MYSQL/sublink/innodb.md)
 - [슬로우쿼리](https://github.com/juneyoung/DEV-INFOS/blob/master/MYSQL/sublink/slowquery.md)
