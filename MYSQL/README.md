@@ -13,10 +13,10 @@ $> service mysql stop
 $> service mysql restart
 
 # systemctl 명령으로 기동,정지,재시작,시작 프로그램 등록
-$>systemctl mysqld start
-$>systemctl mysqld stop
-$>systemctl mysqld restart
-$>systemctl mysqld enable
+$> systemctl mysqld start
+$> systemctl mysqld stop
+$> systemctl mysqld restart
+$> systemctl mysqld enable
 ```
 
 #### History
