@@ -4,7 +4,7 @@
 개발 간 찾아본/습득한 정보를 정리하는 창고
 
 #### 항목
-- [MYSQL]()
+- [MYSQL](https://github.com/juneyoung/DEV-INFOS/blob/master/MYSQL/README.md)
 
 #### 히스토리
 - 2017.04.29 : 초안 작성
