@@ -2,6 +2,7 @@
 
 #### 항목
 - [쿼리](https://github.com/juneyoung/DEV-INFOS/blob/master/MYSQL/query.md)
+- [펑션과 프로시저](https://github.com/juneyoung/DEV-INFOS/blob/master/MYSQL/plsql.md)
 - [my.cnf](https://github.com/juneyoung/DEV-INFOS/blob/master/MYSQL/my.cnf.md)
 
 #### 서비스 제어
