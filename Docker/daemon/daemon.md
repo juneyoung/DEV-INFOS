@@ -1,8 +1,7 @@
 ### `daemon.json` 작성하기
 
 #### 개요
-docker 사용시, 출력되는 정보를 수정한다. `dockerd` 명령으로 옵션을 줄 수도 있지만, `dockerd` 는 컨테이너 단위로 적용되므로 docker 루프 디렉토리 변경과 같은 공통적인 부분 수정에는 `daemon.json` 을 수정하는 편이 나은 방법인 것 같다
-default 설정 기준으로 볼 때, `/etc/docker` 에 생성해야 한다.
+docker 사용시, 출력되는 정보를 수정한다. default 설정 기준으로 볼 때, `/etc/docker` 에 생성해야 한다.
 
 #### `daemon.json` 수정
 필요한 부분만 수정하면 된다. 가령 루트 디렉토리를 변경하고자 하면 아래와 같이 적용하면 된다. 언급되지 않은 부분은 `service start docker` 에 사용되는 부분 중 default 로 적용됨
