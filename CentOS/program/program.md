@@ -28,14 +28,24 @@ $> yum remove [프로그램명]
 설치 전 반드시 `uname -an` 으로 자신의 운영체제를 확인하고 맞는 패키지로 설치할 것.
 ```
 # 기존 설치 목록 확인하기 
-$> rpm
+$> rpm -qa
+
+# 패키지 업데이트 하기
+$> rpm -Uvh [패키지명]
 
 # 설치하기
-$> 
+$> rpm -ivh [패키지명]
 
 # 제거하기
-$> 
+$> rpm -ev [패키지명]
 ```
+- `-a` : all
+- `-v` : verbose. 내용을 보여줌
+- `-U` : upgrade
+- `-h` : hash
+- `-i` : install
+- `-e` : erase
+`rpm` 이라고 치면 기타옵션을 확인할 수 있다
 
 #### 바이너리 파일을 이용한 설치
 ```
@@ -51,7 +61,7 @@ $> tar -xvf [파이너리 파일]
 # 적용
 $> source .bash_profile
 ```
-[.bash_porile 작성하기]() 
+[.bash_porile 작성하기](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/system/env.md) 
 
 #### History
 - 2017.05.02 : 초안작성
