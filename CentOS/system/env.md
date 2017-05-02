@@ -27,3 +27,6 @@ PATH=$PATH:$GRADLE_HOME/bin
 ```
 $> source .bash_profile
 ```
+
+#### History
+- 2017.05.02 : 초안작성
