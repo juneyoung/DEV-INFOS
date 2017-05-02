@@ -6,7 +6,7 @@
 #### 항목
 - [시스템 디렉토리]()
 - [환경변수 설정하기](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/system/env.md)
-- [프로그램 설치]()
+- [프로그램 설치](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/program/program.md)
 - [OS 구동시 시작될 프로그램 등록](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/system/boot.md)
 - [기본 명령어](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/cli/README.md)
 
