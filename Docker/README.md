@@ -8,5 +8,13 @@
 - [시스템 디렉토리](https://github.com/juneyoung/DEV-INFOS/blob/master/Docker/sysdir/sysdir.md)
 - [daemon.json](https://github.com/juneyoung/DEV-INFOS/blob/master/Docker/daemon/daemon.md)
 
+#### 용례
+경험 상 docker 는 아래와 같은 절차로 실행한다.
+1. docker 설치
+2. `docker pull image` : 이미지 준비
+3. `docker run image` : 컨테이너 생성
+4. `docker exec` : 컨테이너 실행해서 필요한 작업 수행
+5. `docker commit` : 컨테이너에서 작업한 내용을 이미지로 등록
+
 #### History
 - 2017.04.29 : 초안작성
