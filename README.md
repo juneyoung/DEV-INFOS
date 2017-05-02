@@ -7,12 +7,12 @@
 - [CentOS](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/README.md) 
 
 #### 항목 (Server)
-- [Tomcat](https://github.com/juneyoung/DEV-INFOS/blob/master/Tomcat/README.md) : 미작성
+- [Tomcat](https://github.com/juneyoung/DEV-INFOS/blob/master/Tomcat/README.md) : 작성중
 
 #### 항목 (Language)
 - [Java]() : 미작성
 - [JSP]() : 미작성
-- [Javascript]() : 미작성
+- [Javascript](https://github.com/juneyoung/DEV-INFOS/tree/master/Javascript) : 작성중
 - [R]() : 미작성
 
 #### 항목 (Framework)
