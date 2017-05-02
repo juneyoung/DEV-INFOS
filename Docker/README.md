@@ -25,8 +25,8 @@ $> docker logs [컨테이너 ID / 이름]
 
 #### 기타
 `dockerd` 와 `service start docker` 
-- `dockerd` : 컨테이너에 대해 데몬 설정한다. 부모 프로세스가 `1` 이 아니므로 잘못되면 `kill` 명령어로 죽이면 된다
-- `service start docker` : 좀 더 광범위한 개념인 듯. `service` 로 띄우게 되면 부모가 `1` 이라 죽일 수 없다. `<defunc>`에 빠졌다면 장치 재기동 외에는 답이 없다
+- `dockerd` : 부모 프로세스가 `1` 이 아니므로 잘못되면 `kill` 명령어로 죽이면 된다
+- `service start docker` : `service` 로 띄우게 되면 부모가 `1` 이라 죽일 수 없다. `<defunc>`에 빠졌다면 장치 재기동 외에는 답이 없다
 
 #### History
 - 2017.04.29 : 초안작성
