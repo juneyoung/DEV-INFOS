@@ -18,7 +18,7 @@ GRADLE_HOME=/Users/$USER/Documents/gradle-3.3
 # :(콜론)으로 추가할 수 있음
 PATH=$PATH:$GRADLE_HOME/bin
 ```
-`echo $PATH` 로 추가된 경로를 확인할 것
+`echo $PATH` 로 추가된 경로를 확인할 것.
 `ls` 같은 기본 명령이 안된다면 `PATH` 경로에 콜론 등의 신텍스 문제가 있는 것이니,
 `root` 계정으로 변경 후, 현재 계정의 `.bash_profile` 을 재수정한다
 
