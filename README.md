@@ -25,7 +25,7 @@
 - [Jenkins]() : 미작성
 - [SonarQube]() : 미작성
 - [Docker](https://github.com/juneyoung/DEV-INFOS/blob/master/Docker/README.md)
-- [Ansible](https://github.com/juneyoung/DEV-INFOS/blob/master/Ansible/README.md)
+- [Ansible](https://github.com/juneyoung/DEV-INFOS/blob/master/Ansible/README.md) : 작성중
 
 #### 항목 (DB)
 - [Oracle]() : 미작성
