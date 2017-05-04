@@ -34,7 +34,7 @@ Ansible 은 철저하게 단순한 IT 자동 시스템이다. 앤서블은 설�
    * 사용자 목록 : [ansible-project](https://groups.google.com/group/ansible-project)
    * 개발 목록 : [ansible-devel](https://groups.google.com/group/ansible-devel)
    * 공식 발표 : [ansible-renounce](https://groups.google.com/group/ansible-announce) - 읽기 전용
-   *irc.freenode.net: #ansible
+   * irc.freenode.net: #ansible
 
 
 브랜치 정보
