@@ -5,5 +5,9 @@
 #### 항목
 - [Ansible 공식문서 번역](https://github.com/juneyoung/DEV-INFOS/blob/master/Ansible/translation/README.md)
 
+#### 설치 주의
+- [OSX]()
+- [CentOS]()
+
 #### History
 - 2017.05.04 : 초안작성
