@@ -21,7 +21,7 @@
 - [RubyOnRails]() : 미작성
 
 #### 항목 (DevOps)
-- [Git]() : 미작성
+- [Git](https://github.com/juneyoung/DEV-INFOS/blob/master/Git/README.md) : 작성중
 - [Jenkins]() : 미작성
 - [SonarQube]() : 미작성
 - [Docker](https://github.com/juneyoung/DEV-INFOS/blob/master/Docker/README.md)
