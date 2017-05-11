@@ -32,6 +32,7 @@ $> sudo pip3 install ansible
 #### Trouble shooting
 - `python3: command not found` : `.bash_profile` 에 `/usr/local/bin` 들어가 있나 확인
 - `permission denied` : `sudo` 권한 사용자로 수행
+- `/etc/ansible/` 디렉토리가 존재하지 않음 : `pip3` 에서 권한문제로 디렉토리를 생성하지 못할 수 있음. 수동으로 만들어줘도 무관.
 
 #### 참고
 - [Python tarball repository](https://www.python.org/ftp/python/3.6.1/)
