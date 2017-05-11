@@ -14,7 +14,7 @@ $> sudo pip3 install pyyaml
 $> sudo pip3 install ansible
 ```
 
-#### trouble shooting
+#### Trouble shooting
 - `<module>` 을 찾을 수 없음 : 에러 메세지에 `python.2.X` 로 되어 있는지 확인하고, 3 로 변경. `pip install ansible` 의 경우 문법 에러 날 수 있음
 - `permission denied` : `sudo` 권한으로 명령어 실행
 
