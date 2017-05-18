@@ -4,7 +4,8 @@
 개발 간 찾아본/습득한 정보를 정리하는 창고
 
 #### OS
-- [CentOS](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/README.md) 
+- [CentOS](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/README.md)
+- [OSX](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/README.md) 
 
 #### Server
 - [Tomcat](https://github.com/juneyoung/DEV-INFOS/blob/master/Tomcat/README.md) : 작성중
