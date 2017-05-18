@@ -5,7 +5,7 @@
 
 #### OS
 - [CentOS](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/README.md)
-- [OSX](https://github.com/juneyoung/DEV-INFOS/blob/master/CentOS/README.md) 
+- [OSX](https://github.com/juneyoung/DEV-INFOS/blob/master/OSX/README.md) 
 
 #### Server
 - [Tomcat](https://github.com/juneyoung/DEV-INFOS/blob/master/Tomcat/README.md) : 작성중
