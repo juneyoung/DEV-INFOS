@@ -4,8 +4,8 @@
 `Sierra` 이후의 버전에서 개발시에 발생할 수 있는 문제에 대해 다루는 문서
 
 #### 항목
-- [Xcode]()
-- [CocoaPods]()
+- [Xcode]() : 미작성
+- [CocoaPods](https://github.com/juneyoung/DEV-INFOS/blob/master/OSX/package_manager/cocoapods.md)
 
 #### 미분류 항목
 
