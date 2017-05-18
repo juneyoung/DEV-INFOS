@@ -15,6 +15,7 @@
 - [JSP]() : 미작성
 - [Javascript](https://github.com/juneyoung/DEV-INFOS/tree/master/Javascript) : 작성중
 - [R]() : 미작성
+- [Ruby](https://github.com/juneyoung/DEV-INFOS/tree/master/Javascript) : 작성중
 
 #### Framework
 - [SpringFramework]() : 미작성
