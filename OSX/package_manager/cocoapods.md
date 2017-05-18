@@ -15,8 +15,8 @@ $> sudo gem install cocoapods
 ERROR: While executing gem ... (Gem::RemoteFetcher::FetchError)
 SSL_connect returned=1 errno=0 state=error: certificate verify failed (https://api.rubygems.org/specs.4.8.gz)
 ```
-- `gem` [버전 업데이트]()
-- gem 업데이트로 해결되지 않으면 `rvm` [인증서 수동 업데이트]()
+- `gem` [버전 업데이트](https://github.com/juneyoung/DEV-INFOS/blob/master/Ruby/package_manager/gem.md)
+- gem 업데이트로 해결되지 않으면 `rvm` [인증서 수동 업데이트](https://github.com/juneyoung/DEV-INFOS/blob/master/Ruby/package_manager/rvm.md)
 
 #### History
 - 2017.05.18 : 초안작성
