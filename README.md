@@ -18,7 +18,7 @@
 - [Ruby](https://github.com/juneyoung/DEV-INFOS/tree/master/Ruby) : 작성중
 
 #### Markup
-- [YAML]() : 작성중
+- [YAML](https://github.com/juneyoung/DEV-INFOS/blob/master/MD/YAML.md) : 작성중
 - [MD]() : 미작성
 
 #### Framework
