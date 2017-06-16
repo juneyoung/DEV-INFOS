@@ -1,6 +1,6 @@
 ## Groovy 문법
 
-[메인으로가기](https://github.com/juneyoung/DEV-INFOS)
+[메인으로](https://github.com/juneyoung/DEV-INFOS)
 
 ### 개요
 
