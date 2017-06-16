@@ -38,5 +38,9 @@ $> docker rmi $(docker images --quiet --filter "dangling=true")
 - `dockerd` : 부모 프로세스가 `1` 이 아니므로 잘못되면 `kill` 명령어로 죽이면 된다
 - `service start docker` : `service` 로 띄우게 되면 부모가 `1` 이라 죽일 수 없다. `<defunc>`에 빠졌다면 장치 재기동 외에는 답이 없다
 
+#### 이미지 별
+- [elk-sebp]() : ELK 가 한번에 묶여 있는 이미지. elastic.co 에서 공식으로 제공되는 이미지가 아니다
+
 #### History
 - 2017.04.29 : 초안작성
+- 2017.06.16 : 이미지별 항목 작성
