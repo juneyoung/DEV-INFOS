@@ -1,5 +1,7 @@
 ### CentOS 레퍼런스
 
+[메인으로](https://github.com/juneyoung/DEV-INFOS)
+
 #### 개요
 현재 가장 핫한 `el7` 기준 작성임.
 
