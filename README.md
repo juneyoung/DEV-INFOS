@@ -27,6 +27,9 @@
 - [Node.js]() : 미작성
 - [RubyOnRails]() : 미작성
 
+#### Package Manager
+- [Gradle](https://github.com/juneyoung/DEV-INFOS/blob/master/Gradle) : 작성중
+
 #### DevOps
 - [Git](https://github.com/juneyoung/DEV-INFOS/blob/master/Git) : 작성중
 - [Jenkins]() : 미작성
