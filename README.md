@@ -28,7 +28,7 @@
 - [RubyOnRails]() : 미작성
 
 #### Package Manager
-- [Gradle](https://github.com/juneyoung/DEV-INFOS/blob/master/Gradle) : 작성중
+- [Gradle](https://github.com/juneyoung/DEV-INFOS/blob/master/gradle) : 작성중
 
 #### DevOps
 - [Git](https://github.com/juneyoung/DEV-INFOS/blob/master/Git) : 작성중
