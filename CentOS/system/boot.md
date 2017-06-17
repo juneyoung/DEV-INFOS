@@ -1,5 +1,7 @@
 ### OS 구동시 시작프로그램 등록하기
 
+[CentOS 항목으로](https://github.com/juneyoung/DEV-INFOS/edit/master/CentOS)
+
 #### 개요
 `MYSQL` 과 같이 장비나 OS가 재시작될 때 자동적으로 떠야 할 프로그램을 등록한다.
 
