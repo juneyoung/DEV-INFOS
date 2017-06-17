@@ -1,5 +1,7 @@
 # Ansible - Playbook 설치 가이드
 
+[Ansible 항목으로](https://github.com/juneyoung/DEV-INFOS/edit/master/Ansible)
+
 ### 개요
 
 Ansible 을 CentOS 에 설치하고 playbook 을 구동하는 부분까지를 다루고 있음.
