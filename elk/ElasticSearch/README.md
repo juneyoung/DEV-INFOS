@@ -1,5 +1,7 @@
 ### ElasticSearch
 
+[ELK 항목으로](https://github.com/juneyoung/DEV-INFOS/edit/master/elk)
+
 #### 트러블슈팅
 - 증상 1 : 구동시 `max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]` 라는 오류가 뜨며 실패
 - 원인 1 : `As of 5.0, Elasticsearch will not start in production mode if vm.max_map_count is not high enough.`
