@@ -1,6 +1,6 @@
 # Docker ELK (elk/sebp)
 
-[메인으로 가기](https://github.com/juneyoung/DEV-INFOS/tree/master/Docker)
+[Docker 항목으로](https://github.com/juneyoung/DEV-INFOS/tree/master/Docker)
 
 ### 0. 공통
 
