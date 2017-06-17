@@ -1,6 +1,9 @@
 ### rvm 레퍼런스
 
+[Ruby 항목으로](https://github.com/juneyoung/DEV-INFOS/edit/master/Ruby)
+
 #### 개요
+`Ruby Version Manager`
 
 #### 인증서 업데이트
 OSX
