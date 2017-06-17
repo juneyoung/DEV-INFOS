@@ -20,7 +20,7 @@
 
 #### Markup
 - [YAML/YML](https://github.com/juneyoung/DEV-INFOS/blob/master/MD/YAML.md)
-- [MD]() : 미작성
+- [MarkDown]() : 미작성
 
 #### Framework
 - [SpringFramework]() : 미작성
