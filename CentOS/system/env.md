@@ -1,5 +1,7 @@
 ### 환경변수 설정하기
 
+[CentOS 항목으로](https://github.com/juneyoung/DEV-INFOS/edit/master/CentOS)
+
 #### 개요
 Linux 시스템은 사용자 별 환경변수를 설정할 수 있음. 
 만약 `root` 계정에 `JAVA_HOME` 변수를 추가하였다면, `root` 계정에서는 `java` 명령어를 전역에서 사용가능하나 `juneyoungoh` 계정에서는 사용이 불가능하다. 
