@@ -69,6 +69,11 @@ assets: [{type : 'liquid asset', label : 'cat'}, {type : 'solid asset', label : 
 - [위키](https://ko.wikipedia.org/wiki/YAML)
 - [스프링 매핑](http://blog.saltfactory.net/load-yaml-file-in-spring/)
 
+
+### 덧.
+- [`yml` 이 맞는지 `yaml` 맞는지](https://stackoverflow.com/questions/21059124/is-it-yaml-or-yml)
+
+
 ### History
 
 - 11.06.2017 : 초안 
