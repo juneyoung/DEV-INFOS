@@ -1,5 +1,7 @@
 ### 많이 사용하는 명령어
 
+[CentOS 항목으로](https://github.com/juneyoung/DEV-INFOS/edit/master/CentOS)
+
 #### 폴더 목록 조회(`ls`)
 ```
 # 보통 -alh 옵션 많이 사용. a 는 all, ㅣ은 링크, h 는 크기 옵션
