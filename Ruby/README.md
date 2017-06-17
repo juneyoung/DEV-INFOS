@@ -1,8 +1,8 @@
 ### Ruby 레퍼런스
 
 #### 항목
-- [rvm]()
-- [gem]()
+- [rvm](https://github.com/juneyoung/DEV-INFOS/blob/master/Ruby/package_manager/rvm.md)
+- [gem](https://github.com/juneyoung/DEV-INFOS/blob/master/Ruby/package_manager/gem.md)
 - [rails framework]()
 
 #### History
