@@ -19,7 +19,7 @@
 - [Groovy](https://github.com/juneyoung/DEV-INFOS/tree/master/Groovy) : 작성중
 
 #### Markup
-- [YAML](https://github.com/juneyoung/DEV-INFOS/blob/master/MD/YAML.md) : 작성중
+- [YAML/YML](https://github.com/juneyoung/DEV-INFOS/blob/master/MD/YAML.md)
 - [MD]() : 미작성
 
 #### Framework
