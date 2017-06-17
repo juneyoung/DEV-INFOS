@@ -1,5 +1,7 @@
 ### Git 사용하기
 
+[메인으로](https://github.com/juneyoung/DEV-INFOS)
+
 #### Github 에서 사용하기
 ```
 $> git init
