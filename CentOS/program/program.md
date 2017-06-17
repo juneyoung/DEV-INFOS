@@ -1,5 +1,7 @@
 ### CentOS 에서 프로그램 설치하기
 
+[CentOS 항목으로](https://github.com/juneyoung/DEV-INFOS/edit/master/CentOS)
+
 #### 패키지 매니저를 이용한 설치 (yum)
 `yum` 을 사용하면 설치가 간편하고 PATH 에 별도로 작업을 하지 않아도 되서 편리하다. 
 다만 일부 라이브러리는 최신이 아닐 수 있기 때문에 유의가 필요함.
