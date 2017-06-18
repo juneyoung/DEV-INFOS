@@ -27,22 +27,36 @@ class Test:
 
 ### `Method` 선언
 - `def` 키워드 사용
-```
-def hello():
-	print('Hello')
-    
-def sum(x, y):
-	return x + y    
-```
+> ```
+> def hello():
+> 	print('Hello')
+>     
+> def sum(x, y):
+> 	return x + y    
+> ```
 - 파라미터의 순서를 caller 가 변경 가능
-```
-def hi(name, greetings)
-	print(greetings + name)
-
-# 아래 구문은 결과가 같음
-hi('June', 'Hello')
-hi(greetings='Hello', name='June')
-```
+> ```
+> def hi(name, greetings):
+> 	print(greetings + name)
+> 
+> # 아래 구문은 결과가 같음
+> hi('June', 'Hello')
+> hi(greetings='Hello', name='June')
+> ```
+- `default` 를 줄 수 있음
+> ```
+> def hi(name='June', greetings='Hello'):
+> 	print(greetings +  name)
+>
+> hi()
+> ```
+- 파라미터 수를 유동적으로 처리가능
+>```
+> def hi(*param):
+> 	print(param)
+>
+> hi('June', 'Hello', 1, 2, 2)
+>```
 
 ### History
 
