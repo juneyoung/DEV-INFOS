@@ -1,13 +1,13 @@
 # Python
 
-[메인으로]()
+[메인으로](https://github.com/juneyoung/DEV-INFOS)
 
 ### 개요
 
 `Deep learning` 을 위한 선수 조건으로서의 파이선. `2.x` 버전은 지원이 중단되었기에 `3.x` 기준으로 작성
 
 ### 곁가지
--  [numpy 라이브러리]()
+-  [numpy 라이브러리](https://github.com/juneyoung/DEV-INFOS)
 -  [django 프레임워크]()
 
 
