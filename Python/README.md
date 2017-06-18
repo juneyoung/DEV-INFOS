@@ -1,0 +1,41 @@
+# Python
+
+[메인으로]()
+
+### 개요
+
+`Deep learning` 을 위한 선수 조건으로서의 파이선. `2.x` 버전은 지원이 중단되었기에 `3.x` 기준으로 작성
+
+### 곁가지
+-  [numpy 라이브러리]()
+-  [django 프레임워크]()
+
+
+### `Class` 선언
+- 생성자는 `__init__` 으로 예약
+- 내부 메소드도 첫번째 인자는 `self`로 고정
+- 별도의 종료 문법은 없음
+```
+class Test:
+	def __init__(self, param)
+    	self.param = param
+
+	def display
+    	print('param : ' + param)
+```
+
+### `Method` 선언
+- `def` 키워드 사용
+```
+def hello():
+	print('Hello')
+    
+def sum(x, y):
+	return x + y    
+```
+
+
+### History
+
+- 2017.06.18 - 초안 작성 
+
