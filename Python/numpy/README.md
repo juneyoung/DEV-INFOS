@@ -1,6 +1,6 @@
 # Numpy
 
-[Python 으로]()
+[Python 으로](https://github.com/juneyoung/DEV-INFOS/blob/master/Python/)
 
 `python3` 기준.
 
