@@ -8,6 +8,7 @@
 
 ### 곁가지
 -  [numpy 라이브러리](https://github.com/juneyoung/DEV-INFOS/blob/master/Python/numpy)
+-  [matplotlib 라이브러리](https://github.com/juneyoung/DEV-INFOS/blob/master/Python/matplotlib)
 -  [django 프레임워크]()
 
 
