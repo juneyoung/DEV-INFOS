@@ -34,7 +34,15 @@ def hello():
 def sum(x, y):
 	return x + y    
 ```
+- 파라미터의 순서를 caller 가 변경 가능
+```
+def hi(name, greetings)
+	print(greetings + name)
 
+# 아래 구문은 결과가 같음
+hi('June', 'Hello')
+hi(greetings='Hello', name='June')
+```
 
 ### History
 
