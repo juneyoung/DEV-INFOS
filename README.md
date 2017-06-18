@@ -17,7 +17,7 @@
 - [R]() : 미작성
 - [Ruby](https://github.com/juneyoung/DEV-INFOS/tree/master/Ruby) : 작성중
 - [Groovy](https://github.com/juneyoung/DEV-INFOS/tree/master/Groovy)
-- [Python](https://github.com/juneyoung/DEV-INFOS/tree/master/Python)
+- [Python3](https://github.com/juneyoung/DEV-INFOS/tree/master/Python)
 
 #### Markup
 - [YAML/YML](https://github.com/juneyoung/DEV-INFOS/blob/master/MD/YAML.md)
