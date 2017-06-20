@@ -1,6 +1,6 @@
 ### ElasticSearch
 
-[ELK 항목으로](https://github.com/juneyoung/DEV-INFOS/edit/master/elk)
+[ELK 항목으로](https://github.com/juneyoung/DEV-INFOS/edit/master/ELK)
 
 #### 트러블슈팅
 - 증상 1 : 구동시 `max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]` 라는 오류가 뜨며 실패
