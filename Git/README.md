@@ -33,14 +33,14 @@ $> git push origin master
 $> git --set-upstream-to origin/master
 ```
 
-### `IDE` 에서 `.ignore` 에 있는 파일들을 내려받거나 커밋하려고 할 때
+#### `IDE` 에서 `.ignore` 에 있는 파일들을 내려받거나 커밋하려고 할 때
 ```
 $> git rm -r --cached .
 $> git add .
 $> git commit -m 'fixed untracked files'
 ```
 
-### 디렉토리명 바꾸기
+#### 디렉토리명 바꾸기
 ```
 # 일반적인 경우
 $> git mv [현재 디렉토리명] [변경할 디렉토리명]
@@ -53,3 +53,4 @@ $> git mv tmp [변경할 디렉토리명]
 
 #### History
 - 2017.05.11 : 초안작성
+- 2017.06.20 : `디렉토리명 변경`, `캐시정리` 
