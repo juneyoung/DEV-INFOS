@@ -37,7 +37,7 @@
 - [SonarQube]() : 미작성
 - [Docker](https://github.com/juneyoung/DEV-INFOS/blob/master/Docker)
 - [Ansible](https://github.com/juneyoung/DEV-INFOS/blob/master/Ansible) : 작성중
-- [elk](https://github.com/juneyoung/DEV-INFOS/blob/master/elk)
+- [elk](https://github.com/juneyoung/DEV-INFOS/blob/master/ELK)
 
 #### DB
 - [Oracle]() : 미작성
