@@ -61,7 +61,8 @@ output {
   stdout { codec => rubydebug }
 }
 ```
-
+### 참고 항목
+[로그스태시-로그백 인코더 공식 가이드](https://github.com/logstash/logstash-logback-encoder)
 
 ### History
 - 2017.06.20 : 초안작성
