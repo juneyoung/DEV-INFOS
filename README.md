@@ -44,6 +44,9 @@
 - [MYSQL](https://github.com/juneyoung/DEV-INFOS/blob/master/MYSQL)
 - [MongoDB]() : 미작성
 
+#### Solution
+- [Apache-Kafaka](https://github.com/juneyoung/DEV-INFOS/tree/master/Kafka) : 작성중
+
 #### History
 - 2017.04.29 : 초안 작성
 - 2017.05.02 : 작성 범위 설정
