@@ -1,6 +1,6 @@
 # React.js
 
-[메인으로]()
+[메인으로](https://github.com/juneyoung/DEV-INFOS)
 
 #### 개요
 
