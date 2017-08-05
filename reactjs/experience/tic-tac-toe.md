@@ -1,7 +1,9 @@
 # React.js Tic Tac Toe 따라하기
 
+[react.js 항목으로](https://github.com/juneyoung/DEV-INFOS/tree/master/reactjs)
+
 #### 0. 개요
- react.js 를 사용하는 건 좋지만 알고 써야 제 맛. 공식 홈페이지에 제공되는 예제로 감을 잡아보자. [HelloWorld]() 에 이은 두 번째 연습. 원본 페이지는 [여기](https://facebook.github.io/react/tutorial/tutorial.html#what-were-building). 
+ react.js 를 사용하는 건 좋지만 알고 써야 제 맛. 공식 홈페이지에 제공되는 예제로 감을 잡아보자. [HelloWorld](https://github.com/juneyoung/DEV-INFOS/blob/master/reactjs/experience/hello-react.md) 에 이은 두 번째 연습. 원본 페이지는 [여기](https://facebook.github.io/react/tutorial/tutorial.html#what-were-building). 
  
  당연히 `A-Z` 같은 가이드는 아니고 개념이 안맞아서 고생했던 부분 위주 정리.
  
