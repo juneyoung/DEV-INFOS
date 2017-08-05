@@ -114,7 +114,7 @@ export default class Board extends React.Component {
 ```
 
 #### 98. 참고 프로젝트
-- [비트버킷]() : 파일 분리 버전 20170805
+- [비트버킷](https://bitbucket.org/juneyoung/react_practice) : 파일 분리 버전 20170805
 
  
 #### 99. History
