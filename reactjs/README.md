@@ -44,7 +44,9 @@ $ > create-react-app projectA
  
  #### 경험
  - [HelloWorld](https://github.com/juneyoung/DEV-INFOS/blob/master/reactjs/experience/hello-react.md) : 어디서부터 시작해야 되나?
+ - [Tic Tac Toe](https://github.com/juneyoung/DEV-INFOS/blob/master/reactjs/experience/tic-tac-toe.md) : 기초 쌓기
  
  #### History
  - 2017.07.30 : 초안 작성
+ - 2017.08.05 : tic tac toe 예제 추가
 
