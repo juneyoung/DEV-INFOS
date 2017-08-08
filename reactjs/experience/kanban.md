@@ -1,6 +1,6 @@
 # KanbanBoard 예제
 
-
+[react.js 항목으로](https://github.com/juneyoung/DEV-INFOS/tree/master/reactjs)
 
 #### 0. 개요
 `프로리액트(위키북스), 2016`  책의 칸반보드 예제를 바탕으로 작성하였음. 최신 기술이다보니 `Deprecated` 된 부분, 변경된 부분을 기록함.
@@ -109,7 +109,7 @@ Unexpected template string expression no-template-curly-in-string
 -  사용할 때는 `import PropTypes from 'prop-types'` 로 사용한다.
 
 #### 98. References
-- [KanbanBoard 비트버킷]() 
+- [KanbanBoard 비트버킷](https://bitbucket.org/juneyoung/kanbanboard) 
 
 #### 99. History 
 - 20170808 : 초안작성 (~ `p.75`) 
