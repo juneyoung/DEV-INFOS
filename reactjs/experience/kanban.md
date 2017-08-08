@@ -5,6 +5,7 @@
 #### 0. 개요
 `프로리액트(위키북스), 2016`  책의 칸반보드 예제를 바탕으로 작성하였음. 최신 기술이다보니 `Deprecated` 된 부분, 변경된 부분을 기록함.
 
+
 #### 1. 초기화 방식의 변경
 책에서 안내되고 있는 방식은 
 
@@ -61,6 +62,7 @@ module.exports = {
 - 기존에 `React.render` 로 사용되던 부분이 `ReactDOM.render` 로 변경되었음. 사용법은 동일함.
 - `registerServiceWorker`라는 펑션이 추가 되었음. [서비스워커](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers?hl=ko)
 
+
 #### 3. `render` 함수 내에서 `jsx` 반환
  책에는 나와있지 않은 부분으로 `return` 구문 다음 개행이 있으면 인식을 하지 못하는 문제가 있음
 ```
@@ -74,6 +76,7 @@ let cards = this.props.cards.map((card) => {
 				tasks={card.tasks}/>;
 });
 ```
+ 
  
 #### 4. `constructor` 주의사항
 - `constructor`는 반드시 `super()` 로 시작(생략 불가능)
@@ -94,12 +97,14 @@ constructor () {
 }
 ```
 
+
 #### 5. 템플릿 문자열(`${}`) 사용
 `ES6` 기준에서는 템플릿 문자열을 반드시 백쿼트-백틱- 으로 둘러야 한다. 싱글쿼트 혹은 더블쿼트 사용 시에는 아래와 같은 경고 메세지 출력
 
 ```
 Unexpected template string expression no-template-curly-in-string
 ```
+
 
 #### 6. `PropTypes` 의 패키지가 변경
 
@@ -108,8 +113,10 @@ Unexpected template string expression no-template-curly-in-string
 - `npm install --save prop-types`
 -  사용할 때는 `import PropTypes from 'prop-types'` 로 사용한다.
 
+
 #### 98. References
 - [KanbanBoard 비트버킷](https://bitbucket.org/juneyoung/kanbanboard) 
+
 
 #### 99. History 
 - 20170808 : 초안작성 (~ `p.75`) 
