@@ -20,12 +20,14 @@
 
 #### 예외처리
 1. docker 컨테이너가 정상동작이 안하는 경우(바로 상태가 `Exited` 로 빠진다던가) `logs` 명령으로 로그를 볼 수 있다.
+
 ```
 $> docker logs [컨테이너 ID / 이름]
 ```
 리눅스의 경우 `-d` 로 띄우지 않거나 `dockerfile` 을 사용함에 `init` 을 하지 않으면 바로 종료된다
 
 2. 왠지 모르게 docker 가 용량을 많이 먹을 때 : 미사용 이미지를 정리한다
+
 ```
 # 미사용 이미지 출력
 $> docker images -f "dangling=true"
@@ -33,6 +35,15 @@ $> docker images -f "dangling=true"
 # 미사용 이미지 삭제 - 위 리스트에서 이미지 아이디로 docker rmi <이미지 아이디> 해도 됨
 $> docker rmi $(docker images --quiet --filter "dangling=true")
 ```
+
+3. docker 컨테이너의 상태가 `DEAD` 라서 추가도 삭제도 안되는 상황. [참조](https://github.com/kubevirt/kubevirt/issues/321).
+비정상 세마포어를 모두 지우는 듯.
+
+```
+#이 명령어 이후에 docker rm [컨테이너명]
+$> echo 'y' | sudo dmsetup udevcomplete_all
+```
+
 
 
 #### 기타
@@ -48,3 +59,4 @@ b. [`Dockerfile` 예제](https://github.com/juneyoung/docker-edu)
 #### History
 - 2017.04.29 : 초안작성
 - 2017.06.16 : 이미지별 항목 작성
+- 2017.08.16 : DEAD 상태처리 추가
