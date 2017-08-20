@@ -1,3 +1,5 @@
+아래에서 보다시피 `dmsetup udevcomplete_all` 명령 이후에 비정상 장비가 모두 리셋됨 
+
 ```
 [root@DCSF-DEV08 sendmail_test]# docker ps -a
 CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS                     PORTS                                                                                                  NAMES
@@ -17,6 +19,8 @@ Error: failed to start containers: ion-elk
 [root@DCSF-DEV08 sendmail_test]# echo 'y' | sudo dmsetup udevcomplete_all
 This operation will destroy all semaphores with keys that have a prefix 3405 (0xd4d).
 Do you really want to continue? [y/n]: 128 semaphores with keys prefixed by 3405 (0xd4d) destroyed. 0 skipped.
+
+
 [root@DCSF-DEV08 sendmail_test]# docker ps -a
 CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS                     PORTS                                                               NAMES
 f03377cedb2c        redmine              "/docker-entrypoin..."   3 days ago          Up 2 days                  0.0.0.0:9809->3000/tcp                                              redmine
