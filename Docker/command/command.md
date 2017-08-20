@@ -39,6 +39,10 @@ $> docker commit test-container centos-test
 # 도커파일로 이미지 빌드하기
 $> docker build -t [생성할 이미지명] [도커파일 경로]
 $> docker build -t centos-test .
+
+# 도커 컨테이너 정보 조회하기
+# json 형식으로 표준출력됨
+$> docker inspect [컨테이너 ID / 이름]
 ```
 
 #### 구동 명령어(기본)
