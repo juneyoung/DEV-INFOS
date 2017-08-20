@@ -37,7 +37,7 @@ $> docker rmi $(docker images --quiet --filter "dangling=true")
 ```
 
 3. docker 컨테이너의 상태가 `DEAD` 라서 추가도 삭제도 안되는 상황. [참조](https://github.com/kubevirt/kubevirt/issues/321).
-비정상 세마포어를 모두 지우는 듯.
+비정상 세마포어를 모두 지우는 듯.[예시](https://github.com/juneyoung/DEV-INFOS/blob/master/Docker/references/killSempaphore.md)
 
 ```
 #이 명령어 이후에 docker rm [컨테이너명]
