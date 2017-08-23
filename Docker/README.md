@@ -36,14 +36,18 @@ $> docker images -f "dangling=true"
 $> docker rmi $(docker images --quiet --filter "dangling=true")
 ```
 
-3. docker 컨테이너의 상태가 `DEAD` 라서 추가도 삭제도 안되는 상황. [참조](https://github.com/kubevirt/kubevirt/issues/321).
+3. docker 컨테이너의 상태가 `DEAD` 라서 추가도 삭제도 안되는 상황. [참조](https://github.com/kubevirt/kubevirt/issues/321). 자주하지 말자. 에러남.
 비정상 세마포어를 모두 지우는 듯.[예시](https://github.com/juneyoung/DEV-INFOS/blob/master/Docker/references/killSempaphore.md)
 
 ```
 #이 명령어 이후에 docker rm [컨테이너명]
 $> echo 'y' | sudo dmsetup udevcomplete_all
 ```
-
+4. `docker exec` 에러. 이 경우 데몬을 재시작하면 된다. `3` 과 연관되어 semaphore 지울 때 문제가 생기는 듯. 
+```
+$> docker exec -it mysql /bin/bash
+rpc error: code = 2 desc = oci runtime error: exec failed: container_linux.go:262: starting container process caused "process_linux.go:73: starting setns process caused \"fork/exec /proc/self/exe: no such file or directory\""
+```
 
 
 #### 기타
