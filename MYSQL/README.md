@@ -32,5 +32,17 @@ $> mysqldump -u[사용자명] -p[비밀번호] --routines [스키마명] > [덤�
 $> mysql -u[사용자명] -p[비밀번호] [스키마명] < [덤프파일명]
 ```
 
+#### 서버 전체 데이터 백업과 복구 ([참조](https://stackoverflow.com/questions/9497869/export-and-import-all-mysql-databases-at-one-time))
+```
+# 백업 덤프
+$> mysqldump -u root -p --all-databases > alldb.sql
+$> mysqldump -u root -p --opt --all-databases > alldb.sql
+$> mysqldump -u root -p --all-databases --skip-lock-tables > alldb.sql
+
+# 복원
+$> mysql -u root -p < alldb.sql
+```
+
 #### History
-- 2014.04.29 : 초안작성
+- 2017.04.29 : 초안작성
+- 2017.08.28 : `서버 전체 데이터 백업과 복구` 항목 추가
