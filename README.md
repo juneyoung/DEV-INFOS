@@ -18,6 +18,7 @@
 - [Ruby](https://github.com/juneyoung/DEV-INFOS/tree/master/Ruby) : 작성중
 - [Groovy](https://github.com/juneyoung/DEV-INFOS/tree/master/Groovy)
 - [Python3](https://github.com/juneyoung/DEV-INFOS/tree/master/Python)
+- [Bash](https://github.com/juneyoung/DEV-INFOS/tree/master/bash)
 
 #### Markup
 - [YAML/YML](https://github.com/juneyoung/DEV-INFOS/blob/master/MD/YAML.md)
