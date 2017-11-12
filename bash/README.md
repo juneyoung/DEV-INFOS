@@ -1,5 +1,7 @@
 # Bash shell 작성하기
 
+[목록으로](https://github.com/juneyoung/DEV-INFOS)
+
 ## 00. 매직 키워드 / 주석
 
 ```
