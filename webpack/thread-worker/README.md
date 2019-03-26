@@ -9,7 +9,7 @@
     <img width="200" height="200" vspace="" hspace="25" src="https://cdn.rawgit.com/webpack/media/e7485eb2/logo/icon-square-big.svg">
   </a>
   <h1>thread-loader</h1>
-  <p>Runs the following loaders in a worker pool.</p>
+  <p>로더들의 워커 풀에서 기동할 수 있도록 지원.</p>
 </div>
 
 <h2 align="center">Install</h2>
@@ -20,19 +20,19 @@ npm install --save-dev thread-loader
 
 <h2 align="center">Usage</h2>
 
-Put this loader in front of other loaders. The following loaders run in a worker pool.
+thread-loader 를 다른 로더들의 앞에 배치해야 함. 그래야 이후에 기술된 로더들이 워커 풀에서 작동함.
 
-Loaders running in a worker pool are limited. Examples:
+워커풀로 로더를 사용하는데에는 몇가지 제약이 있음. 예를 들면:
 
-* Loaders cannot emit files.
-* Loaders cannot use custom loader API (i. e. by plugins).
-* Loaders cannot access the webpack options.
+* 로더들을 파일을 변경/생성(emit)할 수 없음.
+* 로더들은 커스텀 로더 API 를 사용할 수 없음. (예. plugins )
+* 로더들은 웹팩 options 에 접근할 수 없음.
 
-Each worker is a separate node.js process, which has an overhead of ~600ms. There is also an overhead of inter-process communication.
+각각의 워커는 최대 600ms 오버헤드를 가지는 별도의 node.js 프로세스로 기동됨. 또한 인터프로세스 커뮤니케이션을 위한 추가 오버헤드를 가질 수 있음.
 
-Use this loader only for expensive operations!
+thread-loader 를 고비용 작업에서만 사용하시오!
 
-<h2 align="center">Examples</h2>
+<h2 align="center">용례</h2>
 
 **webpack.config.js**
 
@@ -61,34 +61,34 @@ use: [
     loader: "thread-loader",
     // loaders with equal options will share worker pools
     options: {
-      // the number of spawned workers, defaults to (number of cpus - 1) or
-      // fallback to 1 when require('os').cpus() is undefined
+      // 생성될 워커의 수, 기본값은 cpu -1 임
+      // require('os').cpus() 가 undefined 일 때 자동으로 1로 새팅됨
       workers: 2,
 
-      // number of jobs a worker processes in parallel
-      // defaults to 20
+      // 워커프로세스에서 병렬로 처리될 작업의 수.
+      // 기본값은 20
       workerParallelJobs: 50,
 
-      // additional node.js arguments
+      // 워커프로세스에서 사용할 node 명령어의 옵션
       workerNodeArgs: ['--max-old-space-size=1024'],
-
-      // Allow to respawn a dead worker pool
-      // respawning slows down the entire compilation
-      // and should be set to false for development
+      
+      // 죽은 워커 재생성 여부
+      // 재생성은 전체 컴파일을 느리게 할 수 있음
+      // development 에서는 반드시 false 로 새팅되어야 함
       poolRespawn: false,
-
-      // timeout for killing the worker processes when idle
-      // defaults to 500 (ms)
-      // can be set to Infinity for watching builds to keep workers alive
+      
+      // idle 상태의 워커를 죽일 대기시간
+      // 기본값 500 (ms)
+      // 빌드를 체크하기 위해서 워커를 살려두려면 Infinity 로 새팅하면 됨
       poolTimeout: 2000,
-
-      // number of jobs the poll distributes to the workers
-      // defaults to 200
-      // decrease of less efficient but more fair distribution
+      
+      //  number of jobs the poll distributes to the workers
+      // 기본값은 200
+      // 효율성을 조금 떨어뜨리지만 공평하게 작업이 분배됨
       poolParallelJobs: 50,
 
-      // name of the pool
-      // can be used to create different pools with elsewise identical options
+      // 워커 풀의 이름
+      // 풀을 구분할 수 있는 식별가능한 옵션
       name: "my-pool"
     }
   },
@@ -98,9 +98,9 @@ use: [
 
 **prewarming**
 
-To prevent the high delay when booting workers it possible to warmup the worker pool.
+워커를 시작할 때 지연이 생기는 것을 방지하기 위해 워커풀을 미리 웜업 해둘 수 있음
 
-This boots the max number of workers in the pool and loads specified modules into the node.js module cache.
+이 작업은 풀에 지정된 최대 수의 워커를 기동하고 지정된 모듈들을 node.js 모듈 캐시로 로드함
 
 ``` js
 const threadLoader = require('thread-loader');
