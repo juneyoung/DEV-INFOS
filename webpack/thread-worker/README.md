@@ -106,11 +106,11 @@ use: [
 const threadLoader = require('thread-loader');
 
 threadLoader.warmup({
-  // pool options, like passed to loader options
-  // must match loader options to boot the correct pool
+  // 워커 풀의 옵션, 상기에 기술된 로더의 옵션과 동일함
+  // 풀을 제대로 작동시키려면 반드시 로더 옵션들이 일치하여야 함 
 }, [
-  // modules to load
-  // can be any module, i. e.
+  // 로드할 모듈 목록
+  // 어떤 모듈이라도 올 수 있음, i. e.
   'babel-loader',
   'babel-preset-es2015',
   'sass-loader',
