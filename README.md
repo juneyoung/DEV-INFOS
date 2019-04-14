@@ -8,7 +8,7 @@
 - [OSX](https://github.com/juneyoung/DEV-INFOS/blob/master/OSX) : 작성중
 
 #### Server
-- [Tomcat](https://github.com/juneyoung/DEV-INFOS/blob/master/Tomcat) : 작성중
+- [Tomcat](https://github.com/juneyoung/DEV-INFOS/blob/master/Tomcat) : WAS
 
 #### Language
 - [Java]() : 미작성
@@ -18,10 +18,10 @@
 - [Ruby](https://github.com/juneyoung/DEV-INFOS/tree/master/Ruby) : 작성중
 - [Groovy](https://github.com/juneyoung/DEV-INFOS/tree/master/Groovy)
 - [Python3](https://github.com/juneyoung/DEV-INFOS/tree/master/Python)
-- [Bash](https://github.com/juneyoung/DEV-INFOS/tree/master/bash)
+- [Bash](https://github.com/juneyoung/DEV-INFOS/tree/master/bash) : CentOS 기본 프로그램
 
 #### Markup
-- [YAML/YML](https://github.com/juneyoung/DEV-INFOS/blob/master/MD/YAML.md)
+- [YAML/YML](https://github.com/juneyoung/DEV-INFOS/blob/master/MD/YAML.md) : 설정 파일
 - [MarkDown]() : 미작성
 
 #### Framework
@@ -29,6 +29,7 @@
 - [Node.js](https://github.com/juneyoung/DEV-INFOS/tree/master/nodejs) : 미작성
 - [RubyOnRails]() : 미작성
 - [react.js](https://github.com/juneyoung/DEV-INFOS/blob/master/reactjs)
+- [next.js](https://github.com/juneyoung/DEV-INFOS/blob/master/nextjs) : react 기반의 웹프레임워크
 
 #### Package Manager
 - [Gradle](https://github.com/juneyoung/DEV-INFOS/blob/master/gradle)
