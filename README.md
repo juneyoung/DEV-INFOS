@@ -18,7 +18,7 @@
 - [Ruby](https://github.com/juneyoung/DEV-INFOS/tree/master/Ruby) : 작성중
 - [Groovy](https://github.com/juneyoung/DEV-INFOS/tree/master/Groovy)
 - [Python3](https://github.com/juneyoung/DEV-INFOS/tree/master/Python)
-- [Bash](https://github.com/juneyoung/DEV-INFOS/tree/master/bash) : CentOS 기본 프로그램
+- [Bash](https://github.com/juneyoung/DEV-INFOS/tree/master/bash) : CentOS 기본 스크립트
 
 #### Markup
 - [YAML/YML](https://github.com/juneyoung/DEV-INFOS/blob/master/MD/YAML.md) : 설정 파일
