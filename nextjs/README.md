@@ -1,4 +1,4 @@
-# React.js
+# Next.js
 
 [메인으로](https://github.com/juneyoung/DEV-INFOS)
 
