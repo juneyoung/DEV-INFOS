@@ -160,6 +160,8 @@ export default withLayout(Page);
 #### 하위 속성
 - Redux[미작성]
 
+#### 자습 노트 
+- [day1. express 연동](https://github.com/juneyoung/DEV-INFOS/blob/master/nextjs/study/day1.md)
 
  #### History
  - 2020.01.28 : 초안 작성
