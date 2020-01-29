@@ -1,7 +1,7 @@
 # Next.js - day1
 
-[메인으로](https://github.com/juneyoung/DEV-INFOS)
-[Next.js 상위로](https://github.com/juneyoung/DEV-INFOS/blob/master/nextjs) 
+- [메인으로](https://github.com/juneyoung/DEV-INFOS)
+- [Next.js 상위로](https://github.com/juneyoung/DEV-INFOS/blob/master/nextjs) 
 
 #### 요약
 
