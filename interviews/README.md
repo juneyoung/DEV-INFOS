@@ -19,8 +19,8 @@
 
 소규모 쇼핑몰의 개발자나 스타트업의 개발 총괄 등 내가 자격인 안되거나 하기 싫어서 쳐내고 나머지에 지원
 
-- [2020.01.28 - 안국역 서비스 회사]()
-- [2020.01.30 - 역삼역 광고회사]()
+- [2020.01.28 - 안국역 서비스 회사](https://github.com/juneyoung/DEV-INFOS/blob/master/interviews/2020/20200128_ankuk.md)
+- [2020.01.30 - 역삼역 광고회사](https://github.com/juneyoung/DEV-INFOS/blob/master/interviews/2020/20200130_yeoksam.md)
 - [2020.02.03 - 강남역 애완동물 회사]()
 
 #### History
