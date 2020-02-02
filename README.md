@@ -54,6 +54,9 @@
 #### MSA
 - [Zipkin](https://github.com/juneyoung/DEV-INFOS/blob/master/Zipkin) : MSA 트레이싱 시스템
 
+#### 일기 ?
+- [면접 일기](https://github.com/juneyoung/DEV-INFOS/tree/master/interviews)
+
 #### History
 - 2017.04.29 : 초안 작성
 - 2017.05.02 : 작성 범위 설정
