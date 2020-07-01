@@ -2,6 +2,18 @@
 
 [CentOS 항목으로](https://github.com/juneyoung/DEV-INFOS/edit/master/CentOS)
 
+#### OS 조회(`uname`)
+```
+$> uname -a
+```
+
+#### 명령어 위치 조회(`which`, `whereis`)
+```
+$> which [명령어]
+$> whereis [명령어]
+```
+
+
 #### 폴더 목록 조회(`ls`)
 ```
 # 보통 -alh 옵션 많이 사용. a 는 all, ㅣ은 링크, h 는 크기 옵션 | t는 시간 정렬
