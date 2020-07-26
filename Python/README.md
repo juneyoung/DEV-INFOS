@@ -10,7 +10,7 @@
 -  [numpy 라이브러리](https://github.com/juneyoung/DEV-INFOS/blob/master/Python/numpy)
 - [matplotlib 라이브러리](https://github.com/juneyoung/DEV-INFOS/blob/master/Python/matplotlib)
 -  [django 프레임워크]()
-- [pandas]()
+- [pandas 라이브러리](https://github.com/juneyoung/DEV-INFOS/blob/master/Python/pandas/Pandas_Study.ipynb)
 
 
 ### `Class` 선언
