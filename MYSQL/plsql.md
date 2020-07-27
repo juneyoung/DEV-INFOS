@@ -42,7 +42,7 @@ CALL [프로시저명]([변수 ...]);
 #### 기타
 - 문자열 변경시 파라미터 수집 구간에서 오류가 날 가능성이 있다. 선언부 파라미터 뒤에 `CHARSET [문자열]` 을 추가해서 해결할 수 있다.
 ```
-FUNCTION ADDMEMBER(`v_name` VARCHAR(100) CHARSET utf8mb4) RETURNS INT(11);
+FUNCTION ADDMEMBER(`v_name` VARCHAR(100) CHARSET utf8mb4) RETURNS INT(11)
 BEGIN
  INSERT INTO MEMBER (name) VALUES(v_name);
  RETURN ROW_COUNT();
