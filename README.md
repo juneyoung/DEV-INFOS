@@ -29,7 +29,7 @@
 - [Node.js](https://github.com/juneyoung/DEV-INFOS/tree/master/nodejs) : 미작성
 - [RubyOnRails]() : 미작성
 - [react.js](https://github.com/juneyoung/DEV-INFOS/blob/master/reactjs)
-- [next.js](https://github.com/juneyoung/DEV-INFOS/blob/master/nextjs) : react 기반의 웹프레임워크
+  - [next.js](https://github.com/juneyoung/DEV-INFOS/tree/main/reactjs/nextjs/README.md) : react 기반의 웹프레임워크
 
 #### Package Manager
 - [Gradle](https://github.com/juneyoung/DEV-INFOS/blob/master/gradle)
