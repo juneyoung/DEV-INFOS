@@ -6,6 +6,10 @@
 
 사내 주요 언어가 `Java` 에서 `js` 로 바뀌면서 공부하게 된 `react.js` 의 특징을 정리
 
+#### 하위 페이지
+- [nextjs](https://github.com/juneyoung/DEV-INFOS/tree/main/reactjs/nextjs/README.md)
+- [redux](https://github.com/juneyoung/DEV-INFOS/tree/main/reactjs/redux/README.md)
+
 #### 준비물
 - node.js
 - npm
