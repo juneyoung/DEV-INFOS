@@ -11,7 +11,7 @@
 - [Tomcat](https://github.com/juneyoung/DEV-INFOS/blob/master/Tomcat) : WAS
 
 #### Language
-- [Java]() : 미작성
+- [Java](https://github.com/juneyoung/DEV-INFOS/tree/master/Java) : 작성중
 - [JSP]() : 미작성
 - [Javascript](https://github.com/juneyoung/DEV-INFOS/tree/master/Javascript) : 작성중
 - [R]() : 미작성
